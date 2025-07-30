@@ -1,0 +1,2109 @@
+Folder PATH listing for volume D:/
+Volume serial number is 6058-300D
+D:.
+|   filelist.txt
+|   
++---6502
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       6502.cspec
+|       |       6502.ldefs
+|       |       6502.pspec
+|       |       6502.slaspec
+|       |       65c02.slaspec
+|       |       
+|       \---manuals
+|               6502.idx
+|               65c02.idx
+|               
++---68000
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       68000.cspec
+|   |   |       68000.dwarf
+|   |   |       68000.ldefs
+|   |   |       68000.opinion
+|   |   |       68000.pspec
+|   |   |       68000.sinc
+|   |   |       68000_register.cspec
+|   |   |       68020.slaspec
+|   |   |       68030.slaspec
+|   |   |       68040.slaspec
+|   |   |       coldfire.slaspec
+|   |   |       
+|   |   +---manuals
+|   |   |       68000.idx
+|   |   |       
+|   |   \---patterns
+|   |           68000_patterns.xml
+|   |           patternconstraints.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   \---plugin
+|       |           |       \---core
+|       |           |           \---analysis
+|       |           |                   Motorola68KAnalyzer.java
+|       |           |                   
+|       |           \---program
+|       |               \---emulation
+|       |                       m68kEmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               m68000_O0_EmulatorTest.java
+|                               m68000_O3_EmulatorTest.java
+|                               
++---8048
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       8048.cspec
+|       |       8048.ldefs
+|       |       8048.pspec
+|       |       8048.slaspec
+|       |       
+|       \---manuals
+|               8048.idx
+|               
++---8051
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |   |   80251.cspec
+|   |   |   |   80251.pspec
+|   |   |   |   80251.sinc
+|   |   |   |   80251.slaspec
+|   |   |   |   80390.cspec
+|   |   |   |   80390.slaspec
+|   |   |   |   8051.cspec
+|   |   |   |   8051.ldefs
+|   |   |   |   8051.opinion
+|   |   |   |   8051.pspec
+|   |   |   |   8051.slaspec
+|   |   |   |   8051_archimedes.cspec
+|   |   |   |   8051_main.sinc
+|   |   |   |   mx51.cspec
+|   |   |   |   mx51.pspec
+|   |   |   |   mx51.sinc
+|   |   |   |   mx51.slaspec
+|   |   |   |   
+|   |   |   \---old
+|   |   |           8051v1.lang
+|   |   |           8051v1.trans
+|   |   |           
+|   |   \---manuals
+|   |           8051.idx
+|   |           
+|   \---ghidra_scripts
+|           Update8051.java
+|           
++---8085
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       \---languages
+|               8085.cspec
+|               8085.ldefs
+|               8085.pspec
+|               8085.slaspec
+|               
++---AARCH64
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   |   aarch64-pltThunks.xml
+|   |   |   
+|   |   +---languages
+|   |   |       AARCH64.cspec
+|   |   |       AARCH64.dwarf
+|   |   |       AARCH64.ldefs
+|   |   |       AARCH64.opinion
+|   |   |       AARCH64.pspec
+|   |   |       AARCH64.slaspec
+|   |   |       AARCH64base.sinc
+|   |   |       AARCH64BE.slaspec
+|   |   |       AARCH64instructions.sinc
+|   |   |       AARCH64ldst.sinc
+|   |   |       AARCH64neon.sinc
+|   |   |       AARCH64sve.sinc
+|   |   |       AARCH64_AMXext.sinc
+|   |   |       AARCH64_AppleSilicon.slaspec
+|   |   |       AARCH64_base_PACoptions.sinc
+|   |   |       AARCH64_golang.cspec
+|   |   |       AARCH64_golang.register.info
+|   |   |       AARCH64_ilp32.cspec
+|   |   |       AARCH64_swift.cspec
+|   |   |       AARCH64_win.cspec
+|   |   |       AppleSilicon.ldefs
+|   |   |       
+|   |   +---manuals
+|   |   |       AARCH64.idx
+|   |   |       
+|   |   \---patterns
+|   |           AARCH64_LE_patterns.xml
+|   |           AARCH64_win_patterns.xml
+|   |           patternconstraints.xml
+|   |           prepatternconstraints.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       |   DecodeBitMasks.java
+|       |       |   
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               AARCH64PltThunkAnalyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           +---format
+|       |           |           |   +---elf
+|       |           |           |   |   +---extend
+|       |           |           |   |   |       AARCH64_ElfExtension.java
+|       |           |           |   |   |       
+|       |           |           |   |   \---relocation
+|       |           |           |   |           AARCH64_ElfRelocationContext.java
+|       |           |           |   |           AARCH64_ElfRelocationHandler.java
+|       |           |           |   |           AARCH64_ElfRelocationType.java
+|       |           |           |   |           
+|       |           |           |   \---macho
+|       |           |           |       \---relocation
+|       |           |           |               AARCH64_MachoRelocationConstants.java
+|       |           |           |               AARCH64_MachoRelocationHandler.java
+|       |           |           |               
+|       |           |           \---formatt
+|       |           |               \---coff
+|       |           |                   \---relocation
+|       |           |                           AARCH64_CoffRelocationHandler.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       AARCH64EmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               AARCH64_BE_O0_EmulatorTest.java
+|                               AARCH64_BE_O3_EmulatorTest.java
+|                               AARCH64_O0_EmulatorTest.java
+|                               AARCH64_O3_EmulatorTest.java
+|                               
++---ARM
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |   |   ARM.cspec
+|   |   |   |   ARM.dwarf
+|   |   |   |   ARM.gdis
+|   |   |   |   ARM.ldefs
+|   |   |   |   ARM.opinion
+|   |   |   |   ARM.sinc
+|   |   |   |   ARM4t_be.slaspec
+|   |   |   |   ARM4t_le.slaspec
+|   |   |   |   ARM4_be.slaspec
+|   |   |   |   ARM4_le.slaspec
+|   |   |   |   ARM5t_be.slaspec
+|   |   |   |   ARM5t_le.slaspec
+|   |   |   |   ARM5_be.slaspec
+|   |   |   |   ARM5_le.slaspec
+|   |   |   |   ARM6_be.slaspec
+|   |   |   |   ARM6_le.slaspec
+|   |   |   |   ARM7_be.slaspec
+|   |   |   |   ARM7_le.slaspec
+|   |   |   |   ARM8m_be.slaspec
+|   |   |   |   ARM8m_le.slaspec
+|   |   |   |   ARM8_be.slaspec
+|   |   |   |   ARM8_le.slaspec
+|   |   |   |   ARMCortex.pspec
+|   |   |   |   ARMinstructions.sinc
+|   |   |   |   ARMneon.dwarf
+|   |   |   |   ARMneon.sinc
+|   |   |   |   ARMt.pspec
+|   |   |   |   ARMTHUMBinstructions.sinc
+|   |   |   |   ARMtTHUMB.pspec
+|   |   |   |   ARMt_v45.pspec
+|   |   |   |   ARMt_v6.pspec
+|   |   |   |   ARMv8.sinc
+|   |   |   |   ARM_apcs.cspec
+|   |   |   |   ARM_CDE.sinc
+|   |   |   |   ARM_v45.cspec
+|   |   |   |   ARM_v45.pspec
+|   |   |   |   ARM_win.cspec
+|   |   |   |   
+|   |   |   \---old
+|   |   |           ARMv5.lang
+|   |   |           ARMv5.trans
+|   |   |           THUMBv2.lang
+|   |   |           THUMBv2.trans
+|   |   |           
+|   |   +---manuals
+|   |   |       ARM.idx
+|   |   |       
+|   |   \---patterns
+|   |           ARM_BE_patterns.xml
+|   |           ARM_LE_patterns.xml
+|   |           ARM_switch_patterns.xml
+|   |           patternconstraints.xml
+|   |           prepatternconstraints.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               ArmAnalyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               +---coff
+|       |           |               |   \---relocation
+|       |           |               |           ARM_CoffRelocationHandler.java
+|       |           |               |           
+|       |           |               +---elf
+|       |           |               |   +---extend
+|       |           |               |   |       ARM_ElfExtension.java
+|       |           |               |   |       ARM_ElfProgramHeaderConstants.java
+|       |           |               |   |       
+|       |           |               |   \---relocation
+|       |           |               |           ARM_ElfRelocationContext.java
+|       |           |               |           ARM_ElfRelocationHandler.java
+|       |           |               |           ARM_ElfRelocationType.java
+|       |           |               |           ElfArmRelocationFixupHandler.java
+|       |           |               |           
+|       |           |               \---macho
+|       |           |                   \---relocation
+|       |           |                           ARM_MachoRelocationConstants.java
+|       |           |                           ARM_MachoRelocationHandler.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       ARMEmulateInstructionStateModifier.java
+|       |                       
+|       +---test.processors
+|       |   \---java
+|       |       \---ghidra
+|       |           \---test
+|       |               \---processors
+|       |                       ARM10e_O0_EmulatorTest.java
+|       |                       ARM10e_O3_EmulatorTest.java
+|       |                       ARMv5_O0_EmulatorTest.java
+|       |                       ARMv5_O3_EmulatorTest.java
+|       |                       ARM_BE_O0_EmulatorTest.java
+|       |                       ARM_BE_O3_EmulatorTest.java
+|       |                       ARM_BE_thumb_O0_EmulatorTest.java
+|       |                       ARM_BE_thumb_O3_EmulatorTest.java
+|       |                       ARM_O0_EmulatorTest.java
+|       |                       ARM_O3_EmulatorTest.java
+|       |                       ARM_thumb_O0_EmulatorTest.java
+|       |                       ARM_thumb_O3_EmulatorTest.java
+|       |                       ARM_v8m_O0_EmulatorTest.java
+|       |                       ARM_v8m_O3_EmulatorTest.java
+|       |                       
+|       \---test.slow
+|           \---java
+|               \---ghidra
+|                   \---app
+|                       \---plugin
+|                           \---core
+|                               \---analysis
+|                                       ArmBranchReturnDetectionTest.java
+|                                       ArmThumbChangeDisassemblyTest.java
+|                                       
++---Atmel
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       atmega256.pspec
+|   |   |       avr32.opinion
+|   |   |       avr32a.cspec
+|   |   |       avr32a.ldefs
+|   |   |       avr32a.pspec
+|   |   |       avr32a.slaspec
+|   |   |       avr32a_arithmetic_operations.sinc
+|   |   |       avr32a_autogen.sinc
+|   |   |       avr32a_bit_operations.sinc
+|   |   |       avr32a_coprocessor_interface.sinc
+|   |   |       avr32a_data_transfer.sinc
+|   |   |       avr32a_dsp_operations.sinc
+|   |   |       avr32a_dsp_operations2.sinc
+|   |   |       avr32a_instruction_flow.sinc
+|   |   |       avr32a_logic_operations.sinc
+|   |   |       avr32a_multiplication_operations.sinc
+|   |   |       avr32a_shift_operations.sinc
+|   |   |       avr32a_simd_operations.sinc
+|   |   |       avr32a_system_control.sinc
+|   |   |       avr8.ldefs
+|   |   |       avr8.opinion
+|   |   |       avr8.pspec
+|   |   |       avr8.sinc
+|   |   |       avr8.slaspec
+|   |   |       avr8e.slaspec
+|   |   |       avr8egcc.cspec
+|   |   |       avr8eind.slaspec
+|   |   |       avr8gcc.cspec
+|   |   |       avr8iarV1.cspec
+|   |   |       avr8imgCraftV8.cspec
+|   |   |       avr8xmega.pspec
+|   |   |       avr8xmega.slaspec
+|   |   |       
+|   |   +---manuals
+|   |   |       AVR32.idx
+|   |   |       AVR8.idx
+|   |   |       
+|   |   \---patterns
+|   |           AVR8_patterns.xml
+|   |           patternconstraints.xml
+|   |           
+|   +---ghidra_scripts
+|   |       CreateAVR8GDTArchiveScript.java
+|   |       
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               +---extend
+|       |                               |       AVR8_ElfExtension.java
+|       |                               |       
+|       |                               \---relocation
+|       |                                       AVR32_ElfRelocationHandler.java
+|       |                                       AVR32_ElfRelocationType.java
+|       |                                       AVR8_ElfRelocationHandler.java
+|       |                                       AVR8_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               AVR32_BE_O0_EmulatorTest.java
+|                               AVR32_BE_O3_EmulatorTest.java
+|                               AVR8_31_GCC_O0_EmulatorTest.java
+|                               AVR8_31_GCC_O3_EmulatorTest.java
+|                               AVR8_51_GCC_O0_EmulatorTest.java
+|                               AVR8_51_GCC_O3_EmulatorTest.java
+|                               AVR8_6_GCC_O0_EmulatorTest.java
+|                               AVR8_6_GCC_O3_EmulatorTest.java
+|                               AVR8_xmega_GCC_O0_EmulatorTest.java
+|                               AVR8_xmega_GCC_O3_EmulatorTest.java
+|                               
++---BPF
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       \---languages
+|               BPF.cspec
+|               BPF.ldefs
+|               BPF.pspec
+|               BPF.sinc
+|               BPF_le.slaspec
+|               
++---CP1600
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       \---languages
+|               CP1600.cspec
+|               CP1600.ldefs
+|               CP1600.opinion
+|               CP1600.pspec
+|               CP1600.slaspec
+|               
++---CR16
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       CR16.cspec
+|   |   |       CR16.ldefs
+|   |   |       CR16.opinion
+|   |   |       CR16.pspec
+|   |   |       CR16B.sinc
+|   |   |       CR16B.slaspec
+|   |   |       CR16C.sinc
+|   |   |       CR16C.slaspec
+|   |   |       
+|   |   \---manuals
+|   |           CR16.idx
+|   |           
+|   \---src
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               CR16C_O0_EmulatorTest.java
+|                               CR16C_O3_EmulatorTest.java
+|                               
++---Dalvik
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   \---languages
+|   |           Dalvik.ldefs
+|   |           Dalvik.opinion
+|   |           Dalvik_Base.cspec
+|   |           Dalvik_Base.pspec
+|   |           Dalvik_Base.sinc
+|   |           Dalvik_Base.slaspec
+|   |           Dalvik_DEX_Android10.slaspec
+|   |           Dalvik_DEX_Android11.slaspec
+|   |           Dalvik_DEX_Android12.slaspec
+|   |           Dalvik_DEX_KitKat.slaspec
+|   |           Dalvik_DEX_Lollipop.slaspec
+|   |           Dalvik_DEX_Marshmallow.slaspec
+|   |           Dalvik_DEX_Nougat.slaspec
+|   |           Dalvik_DEX_Oreo.slaspec
+|   |           Dalvik_DEX_Pie.slaspec
+|   |           Dalvik_ODEX_KitKat.slaspec
+|   |           Dalvik_OpCode_3E_43_unused.sinc
+|   |           Dalvik_OpCode_73_return_void_barrier.sinc
+|   |           Dalvik_OpCode_73_return_void_no_barrier.sinc
+|   |           Dalvik_OpCode_73_unused.sinc
+|   |           Dalvik_OpCode_79_unused.sinc
+|   |           Dalvik_OpCode_7A_unused.sinc
+|   |           Dalvik_OpCode_E3_EA_dex.sinc
+|   |           Dalvik_OpCode_E3_EA_unused.sinc
+|   |           Dalvik_OpCode_EB_F2_iput_iget.sinc
+|   |           Dalvik_OpCode_EB_F2_unused.sinc
+|   |           Dalvik_OpCode_F3_unused.sinc
+|   |           Dalvik_OpCode_F4_unused.sinc
+|   |           Dalvik_OpCode_F5_unused.sinc
+|   |           Dalvik_OpCode_F6_unused.sinc
+|   |           Dalvik_OpCode_F7_unused.sinc
+|   |           Dalvik_OpCode_F8_unused.sinc
+|   |           Dalvik_OpCode_F9_unused.sinc
+|   |           Dalvik_OpCode_FA_FD_dex.sinc
+|   |           Dalvik_OpCode_FA_unused.sinc
+|   |           Dalvik_OpCode_FB_unused.sinc
+|   |           Dalvik_OpCode_FC_unused.sinc
+|   |           Dalvik_OpCode_FD_unused.sinc
+|   |           Dalvik_OpCode_FE_FF_dex.sinc
+|   |           Dalvik_OpCode_FE_unused.sinc
+|   |           Dalvik_OpCode_FF_unused.sinc
+|   |           
+|   \---src
+|       \---main
+|           \---java
+|               \---ghidra
+|                   \---dalvik
+|                       \---dex
+|                           \---inject
+|                                   ConstantPoolDex.java
+|                                   InjectPayloadDexParameters.java
+|                                   InjectPayloadDexRange.java
+|                                   PcodeInjectLibraryDex.java
+|                                   
++---DATA
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   \---languages
+|   |           data-be-64.slaspec
+|   |           data-le-64.slaspec
+|   |           data-ptr16.cspec
+|   |           data-ptr32.cspec
+|   |           data-ptr64.cspec
+|   |           data.ldefs
+|   |           data.pspec
+|   |           data.sinc
+|   |           
+|   +---ghidra_scripts
+|   |       LoadDataScript.java
+|   |       
+|   \---src
+|       \---main
+|           \---java
+|               \---ghidra
+|                   \---language
+|                       \---data
+|                               DataLanguageHelper.java
+|                               
++---eBPF
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   \---languages
+|   |           eBPF.cspec
+|   |           eBPF.dwarf
+|   |           eBPF.ldefs
+|   |           eBPF.opinion
+|   |           eBPF.pspec
+|   |           eBPF.sinc
+|   |           eBPF_be.slaspec
+|   |           eBPF_le.slaspec
+|   |           
+|   \---src
+|       \---main
+|           \---java
+|               \---ghidra
+|                   \---app
+|                       +---plugin
+|                       |   \---core
+|                       |       \---analysis
+|                       |               eBPFHelperDataTypes.java
+|                       |               eBPFSyscallAnalyzer.java
+|                       |               
+|                       \---util
+|                           \---bin
+|                               \---format
+|                                   \---elf
+|                                       +---extend
+|                                       |       eBPF_ElfExtension.java
+|                                       |       
+|                                       \---relocation
+|                                               eBPF_ElfRelocationHandler.java
+|                                               eBPF_ElfRelocationType.java
+|                                               
++---HCS08
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       HC05-M68HC05TB.pspec
+|       |       HC05.cspec
+|       |       HC05.ldefs
+|       |       HC05.pspec
+|       |       HC05.slaspec
+|       |       HC08-MC68HC908QY4.pspec
+|       |       HC08.ldefs
+|       |       HC08.pspec
+|       |       HC08.slaspec
+|       |       HCS08-MC9S08GB60.pspec
+|       |       HCS08.cspec
+|       |       HCS08.ldefs
+|       |       HCS08.opinion
+|       |       HCS08.pspec
+|       |       HCS08.slaspec
+|       |       HCS_HC.sinc
+|       |       
+|       +---manuals
+|       |       HC05.idx
+|       |       HC08.idx
+|       |       HCS08.idx
+|       |       
+|       \---test-vectors
+|               HC05_tv.s
+|               HC08_tv.s
+|               HCS08_tv.s
+|               
++---HCS12
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       HC12.cspec
+|   |   |       HC12.pspec
+|   |   |       HC12.slaspec
+|   |   |       HCS12.cspec
+|   |   |       HCS12.ldefs
+|   |   |       HCS12.opinion
+|   |   |       HCS12.pspec
+|   |   |       HCS12.slaspec
+|   |   |       HCS12X.cspec
+|   |   |       HCS12X.pspec
+|   |   |       HCS12X.slaspec
+|   |   |       HCS_HC12.sinc
+|   |   |       XGATE.sinc
+|   |   |       
+|   |   \---manuals
+|   |           HCS12.idx
+|   |           
+|   \---src
+|       \---main
+|           \---java
+|               \---ghidra
+|                   \---app
+|                       +---plugin
+|                       |   \---core
+|                       |       \---analysis
+|                       |               HCS12ConventionAnalyzer.java
+|                       |               
+|                       \---util
+|                           \---bin
+|                               \---format
+|                                   \---elf
+|                                       \---extend
+|                                               HCS12X_ElfExtension.java
+|                                               
++---JVM
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   |   ExtensionPoint.manifest
+|   |   |   
+|   |   +---languages
+|   |   |       JVM.cspec
+|   |   |       JVM.ldefs
+|   |   |       JVM.opinion
+|   |   |       JVM.pspec
+|   |   |       JVM.slaspec
+|   |   |       
+|   |   \---manuals
+|   |           JVM.idx
+|   |           
+|   +---ghidra_scripts
+|   |       CreateJNIGDTArchivesScript.java
+|   |       
+|   +---resources
+|   |       ArrayLengthTest.java
+|   |       ArrayTests.java
+|   |       BreakTest.java
+|   |       CheckCastTest.java
+|   |       Concat.java
+|   |       DoubleTests.java
+|   |       FloatTests.java
+|   |       ForEach.java
+|   |       GetPutFieldTest.java
+|   |       GetPutStaticTest.java
+|   |       IfTests.java
+|   |       InstanceOfTest.java
+|   |       InvokeDynamicTest.java
+|   |       InvokeInterfaceTest.java
+|   |       InvokeStatic.java
+|   |       InvokeVirtual.java
+|   |       InvokeVirtual1.java
+|   |       InvokeVirtual2.java
+|   |       JsrTest.java
+|   |       JsrTestRun.java
+|   |       LdcTest.java
+|   |       LocalVariableTests.java
+|   |       LongReturnerTests.java
+|   |       LongTest.java
+|   |       LookupSwitchHex.java
+|   |       LVALong.java
+|   |       LVALongTest1.java
+|   |       LVALongTestMinimal.java
+|   |       Methods.java
+|   |       MonitorTest.java
+|   |       MultiANewArrayTests.java
+|   |       MultipleConstructors.java
+|   |       NewTests.java
+|   |       NullTest.java
+|   |       RecursionTest.java
+|   |       ReturnTests.java
+|   |       StringTest.java
+|   |       TableSwitch.java
+|   |       Throw.java
+|   |       VarArgsTest.java
+|   |       WideInc.java
+|   |       WideTest.java
+|   |       
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   \---util
+|       |           |       +---opinion
+|       |           |       |       JavaLoader.java
+|       |           |       |       
+|       |           |       \---pcodeInject
+|       |           |               ArrayMethods.java
+|       |           |               ConstantPoolJava.java
+|       |           |               InjectGetField.java
+|       |           |               InjectGetStatic.java
+|       |           |               InjectInvokeDynamic.java
+|       |           |               InjectInvokeInterface.java
+|       |           |               InjectInvokeSpecial.java
+|       |           |               InjectInvokeStatic.java
+|       |           |               InjectInvokeVirtual.java
+|       |           |               InjectLdc.java
+|       |           |               InjectMultiANewArray.java
+|       |           |               InjectPayloadJava.java
+|       |           |               InjectPayloadJavaParameters.java
+|       |           |               InjectPutField.java
+|       |           |               InjectPutStatic.java
+|       |           |               InvokeMethods.java
+|       |           |               JavaComputationalCategory.java
+|       |           |               JavaInvocationType.java
+|       |           |               LdcMethods.java
+|       |           |               PcodeInjectLibraryJava.java
+|       |           |               PcodeOpEmitter.java
+|       |           |               ReferenceMethods.java
+|       |           |               
+|       |           \---javaclass
+|       |               +---analyzers
+|       |               |       AbstractJavaAnalyzer.java
+|       |               |       JavaAnalyzer.java
+|       |               |       JvmSwitchAnalyzer.java
+|       |               |       MethodHandleBytecodeBehaviors.java
+|       |               |       
+|       |               +---flags
+|       |               |       ClassFileFlags.java
+|       |               |       FieldInfoAccessFlags.java
+|       |               |       MethodsInfoAccessFlags.java
+|       |               |       
+|       |               \---format
+|       |                   |   ClassFileAnalysisState.java
+|       |                   |   ClassFileJava.java
+|       |                   |   DescriptorDecoder.java
+|       |                   |   FieldInfoJava.java
+|       |                   |   JavaClassConstants.java
+|       |                   |   JavaClassUtil.java
+|       |                   |   MethodInfoJava.java
+|       |                   |   
+|       |                   +---attributes
+|       |                   |       AbstractAttributeInfo.java
+|       |                   |       AnnotationDefaultAttribute.java
+|       |                   |       AnnotationElementValue.java
+|       |                   |       AnnotationElementValuePair.java
+|       |                   |       AnnotationJava.java
+|       |                   |       AttributeFactory.java
+|       |                   |       AttributesConstants.java
+|       |                   |       BootstrapMethods.java
+|       |                   |       BootstrapMethodsAttribute.java
+|       |                   |       CodeAttribute.java
+|       |                   |       ConstantValueAttribute.java
+|       |                   |       DeprecatedAttribute.java
+|       |                   |       EnclosingMethodAttribute.java
+|       |                   |       ExceptionHandlerJava.java
+|       |                   |       ExceptionsAttribute.java
+|       |                   |       InnerClass.java
+|       |                   |       InnerClassesAttribute.java
+|       |                   |       LineNumber.java
+|       |                   |       LineNumberTableAttribute.java
+|       |                   |       LocalVariableJava.java
+|       |                   |       LocalVariableTableAttribute.java
+|       |                   |       LocalVariableTypeTableAttribute.java
+|       |                   |       MethodParameters.java
+|       |                   |       MethodParametersAttribute.java
+|       |                   |       ModuleAttribute.java
+|       |                   |       ModuleMainClassAttribute.java
+|       |                   |       ModulePackagesAttribute.java
+|       |                   |       NestHostAttribute.java
+|       |                   |       NestMembersAttribute.java
+|       |                   |       RuntimeInvisibleAnnotationsAttribute.java
+|       |                   |       RuntimeParameterAnnotationsAttribute.java
+|       |                   |       RuntimeVisibleAnnotationsAttribute.java
+|       |                   |       SignatureAttribute.java
+|       |                   |       SourceDebugExtensionAttribute.java
+|       |                   |       SourceFileAttribute.java
+|       |                   |       StackMapTableAttribute.java
+|       |                   |       SyntheticAttribute.java
+|       |                   |       UnsupportedAttributeInfo.java
+|       |                   |       
+|       |                   \---constantpool
+|       |                           AbstractConstantPoolInfoJava.java
+|       |                           AbstractConstantPoolReferenceInfo.java
+|       |                           ConstantPoolClassInfo.java
+|       |                           ConstantPoolDoubleInfo.java
+|       |                           ConstantPoolDynamicInfo.java
+|       |                           ConstantPoolFactory.java
+|       |                           ConstantPoolFieldReferenceInfo.java
+|       |                           ConstantPoolFloatInfo.java
+|       |                           ConstantPoolIntegerInfo.java
+|       |                           ConstantPoolInterfaceMethodReferenceInfo.java
+|       |                           ConstantPoolInvokeDynamicInfo.java
+|       |                           ConstantPoolLongInfo.java
+|       |                           ConstantPoolMethodHandleInfo.java
+|       |                           ConstantPoolMethodReferenceInfo.java
+|       |                           ConstantPoolMethodTypeInfo.java
+|       |                           ConstantPoolModuleInfo.java
+|       |                           ConstantPoolNameAndTypeInfo.java
+|       |                           ConstantPoolPackageInfo.java
+|       |                           ConstantPoolStringInfo.java
+|       |                           ConstantPoolTagsJava.java
+|       |                           ConstantPoolUtf8Info.java
+|       |                           
+|       \---test
+|           \---java
+|               \---ghidra
+|                   +---app
+|                   |   \---util
+|                   |       \---pcodeInject
+|                   |               InvokeMethodsTest.java
+|                   |               LdcMethodsTest.java
+|                   |               ReferenceMethodsTest.java
+|                   |               TestClassFileCreator.java
+|                   |               
+|                   \---javaclass
+|                       \---test
+|                               DescriptorDecoderTest.java
+|                               MethodsInfoAccessFlagsTest.java
+|                               
++---Loongarch
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       ilp32d.cspec
+|   |   |       ilp32f.cspec
+|   |   |       lasx.sinc
+|   |   |       lbt.sinc
+|   |   |       loongarch.ldefs
+|   |   |       loongarch.opinion
+|   |   |       loongarch32.pspec
+|   |   |       loongarch32_f32.slaspec
+|   |   |       loongarch32_f64.slaspec
+|   |   |       loongarch32_instructions.sinc
+|   |   |       loongarch64.pspec
+|   |   |       loongarch64_f32.slaspec
+|   |   |       loongarch64_f64.slaspec
+|   |   |       loongarch64_instructions.sinc
+|   |   |       loongarch_double.sinc
+|   |   |       loongarch_float.sinc
+|   |   |       loongarch_main.sinc
+|   |   |       lp64d.cspec
+|   |   |       lp64f.cspec
+|   |   |       lsx.sinc
+|   |   |       lvz.sinc
+|   |   |       
+|   |   +---manuals
+|   |   |       loongarch.idx
+|   |   |       
+|   |   \---patterns
+|   |           loongarch_patterns.xml
+|   |           patternconstraints.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               +---plugin
+|       |               |   \---core
+|       |               |       \---analysis
+|       |               |               LoongsonAnalyzer.java
+|       |               |               
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               \---relocation
+|       |                                       Loongarch_ElfRelocationHandler.java
+|       |                                       Loongarch_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               Loongarch64f_O0_EmulatorTest.java
+|                               Loongarch64f_O3_EmulatorTest.java
+|                               Loongarch64_O0_EmulatorTest.java
+|                               Loongarch64_O3_EmulatorTest.java
+|                               
++---M16C
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       M16C_60.cspec
+|       |       M16C_60.ldefs
+|       |       M16C_60.pspec
+|       |       M16C_60.slaspec
+|       |       M16C_80.cspec
+|       |       M16C_80.ldefs
+|       |       M16C_80.pspec
+|       |       M16C_80.slaspec
+|       |       
+|       \---manuals
+|               M16C_60.idx
+|               M16C_80.idx
+|               
++---M8C
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       \---languages
+|               m8c.cspec
+|               m8c.ldefs
+|               m8c.opinion
+|               m8c.pspec
+|               m8c.slaspec
+|               
++---MC6800
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       6800.ldefs
+|       |       6805.cspec
+|       |       6805.ldefs
+|       |       6805.pspec
+|       |       6805.slaspec
+|       |       6809.cspec
+|       |       6809.pspec
+|       |       6809.slaspec
+|       |       6x09.sinc
+|       |       6x09_exg_tfr.sinc
+|       |       6x09_pull.sinc
+|       |       6x09_push.sinc
+|       |       H6309.slaspec
+|       |       
+|       \---manuals
+|               6809.idx
+|               
++---MCS96
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |       MCS96.cspec
+|       |       MCS96.ldefs
+|       |       MCS96.pspec
+|       |       MCS96.sinc
+|       |       MCS96.slaspec
+|       |       
+|       \---manuals
+|               MCS96.idx
+|               
++---MIPS
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       mips.dwarf
+|   |   |       mips.ldefs
+|   |   |       MIPS.opinion
+|   |   |       mips.sinc
+|   |   |       mips16.sinc
+|   |   |       mips32.pspec
+|   |   |       mips32be.cspec
+|   |   |       mips32be.slaspec
+|   |   |       mips32be_eabi.cspec
+|   |   |       mips32Instructions.sinc
+|   |   |       mips32le.cspec
+|   |   |       mips32le.slaspec
+|   |   |       mips32le_eabi.cspec
+|   |   |       mips32micro.pspec
+|   |   |       mips32R6.pspec
+|   |   |       mips32R6be.slaspec
+|   |   |       mips32R6le.slaspec
+|   |   |       mips32_fp64.cspec
+|   |   |       mips64.cspec
+|   |   |       mips64.pspec
+|   |   |       mips64be.slaspec
+|   |   |       mips64Instructions.sinc
+|   |   |       mips64le.slaspec
+|   |   |       mips64micro.pspec
+|   |   |       mips64R6.pspec
+|   |   |       mips64_32_n32.cspec
+|   |   |       mips64_32_o32.cspec
+|   |   |       mips64_32_o64.cspec
+|   |   |       mipsfloat.sinc
+|   |   |       mipsmicro.sinc
+|   |   |       mips_dsp.sinc
+|   |   |       mips_mt.sinc
+|   |   |       
+|   |   +---manuals
+|   |   |       MIPS.idx
+|   |   |       mipsM16.idx
+|   |   |       mipsMic.idx
+|   |   |       r4000.idx
+|   |   |       
+|   |   \---patterns
+|   |           MIPS_BE_patterns.xml
+|   |           MIPS_LE_patterns.xml
+|   |           patternconstraints.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               MipsAddressAnalyzer.java
+|       |           |   |               MipsPreAnalyzer.java
+|       |           |   |               MipsSymbolAnalyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               \---elf
+|       |           |                   +---extend
+|       |           |                   |       MIPS_ElfExtension.java
+|       |           |                   |       
+|       |           |                   \---relocation
+|       |           |                           MIPS_Elf64Relocation.java
+|       |           |                           MIPS_ElfRelocationContext.java
+|       |           |                           MIPS_ElfRelocationHandler.java
+|       |           |                           MIPS_ElfRelocationType.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       MIPSEmulateInstructionStateModifier.java
+|       |                       
+|       +---test.processors
+|       |   \---java
+|       |       \---ghidra
+|       |           \---test
+|       |               \---processors
+|       |                       MIPS16MIX_O0_EmulatorTest.java
+|       |                       MIPS16MIX_O3_EmulatorTest.java
+|       |                       MIPS16_O0_EmulatorTest.java
+|       |                       MIPS16_O3_EmulatorTest.java
+|       |                       MIPS64R6_O0_EmulatorTest.java
+|       |                       MIPS64R6_O3_EmulatorTest.java
+|       |                       MIPS64_32addr_O0_EmulatorTest.java
+|       |                       MIPS64_32addr_O3_EmulatorTest.java
+|       |                       MIPS64_64addr_O0_EmulatorTest.java
+|       |                       MIPS64_64addr_O3_EmulatorTest.java
+|       |                       MIPSEL_O0_EmulatorTest.java
+|       |                       MIPSEL_O3_EmulatorTest.java
+|       |                       MIPSMICROMIX_O0_EmulatorTest.java
+|       |                       MIPSMICROMIX_O3_EmulatorTest.java
+|       |                       MIPSMICRO_O0_EmulatorTest.java
+|       |                       MIPSMICRO_O3_EmulatorTest.java
+|       |                       MIPSR6_O0_EmulatorTest.java
+|       |                       MIPSR6_O3_EmulatorTest.java
+|       |                       MIPS_O0_EmulatorTest.java
+|       |                       MIPS_O3_EmulatorTest.java
+|       |                       
+|       \---test.slow
+|           \---java
+|               \---ghidra
+|                   \---app
+|                       \---plugin
+|                           \---core
+|                               \---analysis
+|                                       MipsPreAnalyzerTest.java
+|                                       
++---PA-RISC
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       pa-risc.ldefs
+|   |   |       pa-risc.opinion
+|   |   |       pa-risc.sinc
+|   |   |       pa-risc32.cspec
+|   |   |       pa-risc32.pspec
+|   |   |       pa-risc32be.slaspec
+|   |   |       pa-riscInstructions.sinc
+|   |   |       
+|   |   +---manuals
+|   |   |       pa11_acd.idx
+|   |   |       
+|   |   \---patterns
+|   |           pa-risc_patterns.xml
+|   |           patternconstraints.xml
+|   |           
+|   \---src
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               PARISC_O0_EmulatorTest.java
+|                               PARISC_O3_EmulatorTest.java
+|                               
++---PIC
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       dsPIC30F.slaspec
+|   |   |       dsPIC33C.slaspec
+|   |   |       dsPIC33E.slaspec
+|   |   |       dsPIC33F.slaspec
+|   |   |       pic12.sinc
+|   |   |       pic12c5xx.cspec
+|   |   |       pic12c5xx.ldefs
+|   |   |       pic12c5xx.pspec
+|   |   |       pic12c5xx.slaspec
+|   |   |       pic12_instructions.sinc
+|   |   |       pic16.cspec
+|   |   |       pic16.ldefs
+|   |   |       pic16.pspec
+|   |   |       pic16.sinc
+|   |   |       pic16.slaspec
+|   |   |       pic16c5x.cspec
+|   |   |       pic16c5x.ldefs
+|   |   |       pic16c5x.pspec
+|   |   |       pic16c5x.slaspec
+|   |   |       pic16f.cspec
+|   |   |       pic16f.pspec
+|   |   |       pic16f.slaspec
+|   |   |       pic16_instructions.sinc
+|   |   |       pic17c7xx.cspec
+|   |   |       pic17c7xx.ldefs
+|   |   |       pic17c7xx.pspec
+|   |   |       pic17c7xx.sinc
+|   |   |       pic17c7xx.slaspec
+|   |   |       pic17c7xx_instructions.sinc
+|   |   |       pic18.cspec
+|   |   |       pic18.ldefs
+|   |   |       pic18.pspec
+|   |   |       pic18.sinc
+|   |   |       pic18.slaspec
+|   |   |       pic18_instructions.sinc
+|   |   |       PIC24.cspec
+|   |   |       PIC24.ldefs
+|   |   |       PIC24.opinion
+|   |   |       PIC24.pspec
+|   |   |       PIC24.sinc
+|   |   |       PIC24E.slaspec
+|   |   |       PIC24F.slaspec
+|   |   |       PIC24H.slaspec
+|   |   |       PIC30.dwarf
+|   |   |       PIC33.dwarf
+|   |   |       
+|   |   \---manuals
+|   |           PIC-12.idx
+|   |           PIC-16.idx
+|   |           PIC-16F.idx
+|   |           PIC-17.idx
+|   |           PIC-18.idx
+|   |           PIC24.idx
+|   |           
+|   +---ghidra_scripts
+|   |       CreatePICSwitch.java
+|   |       
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               +---plugin
+|       |               |   \---core
+|       |               |       \---analysis
+|       |               |               Pic12Analyzer.java
+|       |               |               Pic16Analyzer.java
+|       |               |               Pic17c7xxAnalyzer.java
+|       |               |               Pic18Analyzer.java
+|       |               |               Pic24DInitAnalyzer.java
+|       |               |               PicProcessor.java
+|       |               |               PicSwitchAnalyzer.java
+|       |               |               
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               +---extend
+|       |                               |       PIC30_ElfExtension.java
+|       |                               |       
+|       |                               \---relocation
+|       |                                       PIC30_ElfRelocationContext.java
+|       |                                       PIC30_ElfRelocationHandler.java
+|       |                                       PIC30_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               PIC30_O0_EmulatorTest.java
+|                               
++---PowerPC
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   |   ppc64-r2CallStubs.xml
+|   |   |   
+|   |   +---languages
+|   |   |   |   4xx.sinc
+|   |   |   |   altivec.sinc
+|   |   |   |   evx.sinc
+|   |   |   |   FPRC.sinc
+|   |   |   |   g2.sinc
+|   |   |   |   lmwInstructions.sinc
+|   |   |   |   lswInstructions.sinc
+|   |   |   |   mulhwInstructions.sinc
+|   |   |   |   PowerPC.opinion
+|   |   |   |   ppc.dwarf
+|   |   |   |   ppc.ldefs
+|   |   |   |   ppc_32.pspec
+|   |   |   |   ppc_32_4xx_be.slaspec
+|   |   |   |   ppc_32_4xx_le.slaspec
+|   |   |   |   ppc_32_be.cspec
+|   |   |   |   ppc_32_be.slaspec
+|   |   |   |   ppc_32_be_Mac.cspec
+|   |   |   |   ppc_32_e500mc_be.cspec
+|   |   |   |   ppc_32_e500mc_be.slaspec
+|   |   |   |   ppc_32_e500mc_le.cspec
+|   |   |   |   ppc_32_e500mc_le.slaspec
+|   |   |   |   ppc_32_e500_be.cspec
+|   |   |   |   ppc_32_e500_be.slaspec
+|   |   |   |   ppc_32_e500_le.cspec
+|   |   |   |   ppc_32_e500_le.slaspec
+|   |   |   |   ppc_32_le.cspec
+|   |   |   |   ppc_32_le.slaspec
+|   |   |   |   ppc_32_mpc8270.pspec
+|   |   |   |   ppc_32_quicciii_be.slaspec
+|   |   |   |   ppc_32_quicciii_le.slaspec
+|   |   |   |   ppc_64.cspec
+|   |   |   |   ppc_64.pspec
+|   |   |   |   ppc_64_32.cspec
+|   |   |   |   ppc_64_be.slaspec
+|   |   |   |   ppc_64_be_Mac.cspec
+|   |   |   |   ppc_64_isa_altivec_be.slaspec
+|   |   |   |   ppc_64_isa_altivec_le.slaspec
+|   |   |   |   ppc_64_isa_altivec_vle_be.slaspec
+|   |   |   |   ppc_64_isa_be.slaspec
+|   |   |   |   ppc_64_isa_le.slaspec
+|   |   |   |   ppc_64_isa_vle_be.slaspec
+|   |   |   |   ppc_64_le.slaspec
+|   |   |   |   ppc_a2.sinc
+|   |   |   |   ppc_common.sinc
+|   |   |   |   ppc_embedded.sinc
+|   |   |   |   ppc_instructions.sinc
+|   |   |   |   ppc_isa.sinc
+|   |   |   |   ppc_vle.sinc
+|   |   |   |   quicciii.sinc
+|   |   |   |   Scalar_SPFP.sinc
+|   |   |   |   SPEF_SCR.sinc
+|   |   |   |   SPE_APU.sinc
+|   |   |   |   SPE_EFSD.sinc
+|   |   |   |   SPE_EFV.sinc
+|   |   |   |   SPE_FloatMulAdd.sinc
+|   |   |   |   stmwInstructions.sinc
+|   |   |   |   stswiInstructions.sinc
+|   |   |   |   vsx.sinc
+|   |   |   |   
+|   |   |   \---old
+|   |   |           oldPPC.lang
+|   |   |           oldPPC.trans
+|   |   |           
+|   |   +---manuals
+|   |   |       PowerISA.idx
+|   |   |       PowerPC.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           PPC_BE_patterns.xml
+|   |           PPC_LE_patterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               PowerPCAddressAnalyzer.java
+|       |           |   |               PPC64CallStubAnalyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               +---coff
+|       |           |               |   \---relocation
+|       |           |               |           PowerPC_CoffRelocationHandler.java
+|       |           |               |           
+|       |           |               +---elf
+|       |           |               |   +---extend
+|       |           |               |   |       PowerPC64_ElfExtension.java
+|       |           |               |   |       PowerPC_ElfExtension.java
+|       |           |               |   |       
+|       |           |               |   \---relocation
+|       |           |               |           PowerPC64_ElfRelocationHandler.java
+|       |           |               |           PowerPC64_ElfRelocationType.java
+|       |           |               |           PowerPC_ElfRelocationContext.java
+|       |           |               |           PowerPC_ElfRelocationHandler.java
+|       |           |               |           PowerPC_ElfRelocationType.java
+|       |           |               |           
+|       |           |               \---macho
+|       |           |                   \---relocation
+|       |           |                           PowerPC_MachoRelocationConstants.java
+|       |           |                           PowerPC_MachoRelocationHandler.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       PPCEmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               PPC64_O0_EmulatorTest.java
+|                               PPC64_O3_EmulatorTest.java
+|                               PPCA2Alt_O0_EmulatorTest.java
+|                               PPCA2Alt_O3_EmulatorTest.java
+|                               PPCA2_O0_EmulatorTest.java
+|                               PPCA2_O3_EmulatorTest.java
+|                               PPCP8Alt_O0_EmulatorTest.java
+|                               PPCP8Alt_O3_EmulatorTest.java
+|                               PPCP9Alt_O0_EmulatorTest.java
+|                               PPCP9Alt_O3_EmulatorTest.java
+|                               PPC_O0_EmulatorTest.java
+|                               PPC_O3_EmulatorTest.java
+|                               
++---RISCV
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       riscv.csr.sinc
+|   |   |       riscv.custom.sinc
+|   |   |       riscv.ilp32d.slaspec
+|   |   |       riscv.instr.sinc
+|   |   |       riscv.ldefs
+|   |   |       riscv.lp64d.slaspec
+|   |   |       riscv.opinion
+|   |   |       riscv.priv.sinc
+|   |   |       riscv.reg.sinc
+|   |   |       riscv.rv32a.sinc
+|   |   |       riscv.rv32b.sinc
+|   |   |       riscv.rv32d.sinc
+|   |   |       riscv.rv32f.sinc
+|   |   |       riscv.rv32i.sinc
+|   |   |       riscv.rv32k.sinc
+|   |   |       riscv.rv32m.sinc
+|   |   |       riscv.rv32p.sinc
+|   |   |       riscv.rv32q.sinc
+|   |   |       riscv.rv64a.sinc
+|   |   |       riscv.rv64b.sinc
+|   |   |       riscv.rv64d.sinc
+|   |   |       riscv.rv64f.sinc
+|   |   |       riscv.rv64i.sinc
+|   |   |       riscv.rv64k.sinc
+|   |   |       riscv.rv64m.sinc
+|   |   |       riscv.rv64p.sinc
+|   |   |       riscv.rv64q.sinc
+|   |   |       riscv.rvc.sinc
+|   |   |       riscv.rvv.sinc
+|   |   |       riscv.table.sinc
+|   |   |       riscv.zi.sinc
+|   |   |       riscv32-fp.cspec
+|   |   |       riscv32.cspec
+|   |   |       riscv32.dwarf
+|   |   |       riscv64-fp.cspec
+|   |   |       riscv64.cspec
+|   |   |       riscv64.dwarf
+|   |   |       RV32G.pspec
+|   |   |       RV32GC.pspec
+|   |   |       RV32I.pspec
+|   |   |       RV32IC.pspec
+|   |   |       RV32IMC.pspec
+|   |   |       RV64G.pspec
+|   |   |       RV64GC.pspec
+|   |   |       RV64I.pspec
+|   |   |       RV64IC.pspec
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           riscv_gc_patterns.xml
+|   |           
+|   +---scripts
+|   |       binutil.py
+|   |       
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               RISCVAddressAnalyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               \---elf
+|       |           |                   +---extend
+|       |           |                   |       RISCV_ElfExtension.java
+|       |           |                   |       
+|       |           |                   \---relocation
+|       |           |                           RISCV_ElfRelocationContext.java
+|       |           |                           RISCV_ElfRelocationHandler.java
+|       |           |                           RISCV_ElfRelocationType.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       RISCVEmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               RV32GC_O0_EmulatorTest.java
+|                               RV32GC_O3_EmulatorTest.java
+|                               RV32IMC_O0_EmulatorTest.java
+|                               RV64GC_O0_EmulatorTest.java
+|                               RV64GC_O3_EmulatorTest.java
+|                               RV64G_O0_EmulatorTest.java
+|                               RV64G_O3_EmulatorTest.java
+|                               
++---Sparc
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       Sparc.dwarf
+|   |   |       Sparc.opinion
+|   |   |       SparcV9.ldefs
+|   |   |       SparcV9.pspec
+|   |   |       SparcV9.sinc
+|   |   |       SparcV9_32.cspec
+|   |   |       SparcV9_32.slaspec
+|   |   |       SparcV9_64.cspec
+|   |   |       SparcV9_64.slaspec
+|   |   |       SparcVIS.sinc
+|   |   |       
+|   |   +---manuals
+|   |   |       Sparc.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           SPARC_patterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               +---plugin
+|       |               |   \---core
+|       |               |       \---analysis
+|       |               |               SparcAnalyzer.java
+|       |               |               SparcEarlyAddressAnalyzer.java
+|       |               |               
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               \---relocation
+|       |                                       SPARC64_ElfRelocationHandler.java
+|       |                                       SPARC_ElfRelocationHandler.java
+|       |                                       SPARC_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               SparcV9_32_O0_EmulatorTest.java
+|                               SparcV9_32_O3_EmulatorTest.java
+|                               SparcV9_64_O0_EmulatorTest.java
+|                               SparcV9_64_O3_EmulatorTest.java
+|                               
++---SuperH
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       \---languages
+|               sh-1.slaspec
+|               sh-2.slaspec
+|               sh-2a.slaspec
+|               superh.cspec
+|               superh.ldefs
+|               superh.pspec
+|               superh.sinc
+|               superh2a.cspec
+|               
++---SuperH4
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |   |   SuperH4.ldefs
+|   |   |   |   SuperH4.opinion
+|   |   |   |   SuperH4.pspec
+|   |   |   |   SuperH4.sinc
+|   |   |   |   SuperH4_be.cspec
+|   |   |   |   SuperH4_be.slaspec
+|   |   |   |   SuperH4_le.cspec
+|   |   |   |   SuperH4_le.slaspec
+|   |   |   |   
+|   |   |   \---old
+|   |   |           SuperH4-BE-16.lang
+|   |   |           SuperH4-BE-16.trans
+|   |   |           SuperH4-LE-16.lang
+|   |   |           SuperH4-LE-16.trans
+|   |   |           
+|   |   +---manuals
+|   |   |       superh4.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           SuperH4_patterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               +---plugin
+|       |               |   \---core
+|       |               |       \---analysis
+|       |               |               SH4AddressAnalyzer.java
+|       |               |               SH4EarlyAddressAnalyzer.java
+|       |               |               
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               \---relocation
+|       |                                       ElfSH4RelocationFixupHandler.java
+|       |                                       SH_ElfRelocationHandler.java
+|       |                                       SH_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               SuperH4_BE_O0_EmulatorTest.java
+|                               SuperH4_BE_O3_EmulatorTest.java
+|                               SuperH4_O0_EmulatorTest.java
+|                               SuperH4_O3_EmulatorTest.java
+|                               
++---TI_MSP430
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       TI430Common.sinc
+|   |   |       TI430X.sinc
+|   |   |       TI_MSP430.cspec
+|   |   |       TI_MSP430.dwarf
+|   |   |       TI_MSP430.ldefs
+|   |   |       ti_msp430.opinion
+|   |   |       TI_MSP430.pspec
+|   |   |       TI_MSP430.slaspec
+|   |   |       TI_MSP430X.cspec
+|   |   |       TI_MSP430X.dwarf
+|   |   |       TI_MSP430X.slaspec
+|   |   |       
+|   |   \---manuals
+|   |           MSP430.idx
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           \---app
+|       |               \---util
+|       |                   \---bin
+|       |                       \---format
+|       |                           \---elf
+|       |                               +---extend
+|       |                               |       MSP430_ElfExtension.java
+|       |                               |       
+|       |                               \---relocation
+|       |                                       MSP430X_ElfRelocationHandler.java
+|       |                                       MSP430X_ElfRelocationType.java
+|       |                                       MSP430_ElfRelocationHandler.java
+|       |                                       MSP430_ElfRelocationType.java
+|       |                                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               MSP430X_O0_EmulatorTest.java
+|                               MSP430X_O3_EmulatorTest.java
+|                               MSP430_O0_EmulatorTest.java
+|                               MSP430_O3_EmulatorTest.java
+|                               
++---Toy
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   \---languages
+|   |       |   toy.cspec
+|   |       |   toy.ldefs
+|   |       |   toy.pspec
+|   |       |   toy.sinc
+|   |       |   toy64-long8.cspec
+|   |       |   toy64.cspec
+|   |       |   toy64_be.slaspec
+|   |       |   toy64_be_harvard.slaspec
+|   |       |   toy64_be_harvard_rev.slaspec
+|   |       |   toy64_le.slaspec
+|   |       |   toyInstructions.sinc
+|   |       |   toyPosStack.cspec
+|   |       |   toy_be.slaspec
+|   |       |   toy_be_posStack.slaspec
+|   |       |   toy_builder.sinc
+|   |       |   toy_builder_be.slaspec
+|   |       |   toy_builder_be_align2.slaspec
+|   |       |   toy_builder_le.slaspec
+|   |       |   toy_builder_le_align2.slaspec
+|   |       |   toy_harvard.pspec
+|   |       |   toy_le.slaspec
+|   |       |   toy_wsz_be.slaspec
+|   |       |   toy_wsz_le.slaspec
+|   |       |   
+|   |       \---old
+|   |           |   ToyV00BE64.lang
+|   |           |   ToyV0BE64.trans
+|   |           |   ToyV0LE64.lang
+|   |           |   ToyV0LE64.trans
+|   |           |   
+|   |           \---v01stuff
+|   |                   toy.cspec
+|   |                   toy.ldefs_v01
+|   |                   toy.sinc
+|   |                   toy64.cspec
+|   |                   toyInstructions.sinc
+|   |                   toyPosStack.cspec
+|   |                   
+|   \---src
+|       \---main
+|           \---java
+|               \---ghidra
+|                   \---app
+|                       \---plugin
+|                           \---core
+|                               \---analysis
+|                                       ToyAnalyzer.java
+|                                       
++---tricore
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       tc172x.pspec
+|   |   |       tc176x.pspec
+|   |   |       tc29x.pspec
+|   |   |       tricore.cspec
+|   |   |       tricore.dwarf
+|   |   |       tricore.ldefs
+|   |   |       tricore.opinion
+|   |   |       tricore.pcp.sinc
+|   |   |       tricore.pspec
+|   |   |       tricore.sinc
+|   |   |       tricore.slaspec
+|   |   |       
+|   |   +---manuals
+|   |   |       tricore.idx
+|   |   |       tricore2.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           tricore_patterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               \---elf
+|       |           |                   \---relocation
+|       |           |                           Tricore_ElfRelocationHandler.java
+|       |           |                           Tricore_ElfRelocationType.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       TRICOREEmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               TRICORE_BE_O0_EmulatorTest.java
+|                               TRICORE_BE_O3_EmulatorTest.java
+|                               
++---V850
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   \---data
+|       +---languages
+|       |   |   V850.cspec
+|       |   |   V850.ldefs
+|       |   |   V850.opinion
+|       |   |   V850.pspec
+|       |   |   V850.slaspec
+|       |   |   
+|       |   +---Helpers
+|       |   |       Conditions.sinc
+|       |   |       Extras.sinc
+|       |   |       Macros.sinc
+|       |   |       Register.sinc
+|       |   |       Tokens.sinc
+|       |   |       Variables.sinc
+|       |   |       
+|       |   \---Instructions
+|       |           Arithmetic.sinc
+|       |           Float.sinc
+|       |           Load_Store.sinc
+|       |           Logic.sinc
+|       |           Special.sinc
+|       |           
+|       +---manuals
+|       |       v850.idx
+|       |       
+|       \---patterns
+|               patternconstraints.xml
+|               V850_patterns.xml
+|               
++---x86
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---extensions
+|   |   |   \---rust
+|   |   |       +---unix
+|   |   |       |       cc.xml
+|   |   |       |       probe_fixup.xml
+|   |   |       |       try_fixup.xml
+|   |   |       |       
+|   |   |       \---windows
+|   |   |               probe_fixup.xml
+|   |   |               try_fixup.xml
+|   |   |               
+|   |   +---languages
+|   |   |   |   adx.sinc
+|   |   |   |   avx.sinc
+|   |   |   |   avx2.sinc
+|   |   |   |   avx2_manual.sinc
+|   |   |   |   avx512.sinc
+|   |   |   |   avx512_manual.sinc
+|   |   |   |   avx_manual.sinc
+|   |   |   |   bmi1.sinc
+|   |   |   |   bmi2.sinc
+|   |   |   |   cet.sinc
+|   |   |   |   clwb.sinc
+|   |   |   |   fma.sinc
+|   |   |   |   ia.sinc
+|   |   |   |   lockable.sinc
+|   |   |   |   lzcnt.sinc
+|   |   |   |   macros.sinc
+|   |   |   |   mpx.sinc
+|   |   |   |   pclmulqdq.sinc
+|   |   |   |   rdrand.sinc
+|   |   |   |   sgx.sinc
+|   |   |   |   sha.sinc
+|   |   |   |   smx.sinc
+|   |   |   |   x86-16-real.pspec
+|   |   |   |   x86-16.cspec
+|   |   |   |   x86-16.gdis
+|   |   |   |   x86-16.pspec
+|   |   |   |   x86-32-golang.cspec
+|   |   |   |   x86-32-golang.register.info
+|   |   |   |   x86-64-compat32.pspec
+|   |   |   |   x86-64-gcc.cspec
+|   |   |   |   x86-64-golang.cspec
+|   |   |   |   x86-64-golang.register.info
+|   |   |   |   x86-64-swift.cspec
+|   |   |   |   x86-64-win.cspec
+|   |   |   |   x86-64.dwarf
+|   |   |   |   x86-64.pspec
+|   |   |   |   x86-64.slaspec
+|   |   |   |   x86.dwarf
+|   |   |   |   x86.ldefs
+|   |   |   |   x86.opinion
+|   |   |   |   x86.pspec
+|   |   |   |   x86.slaspec
+|   |   |   |   x86borland.cspec
+|   |   |   |   x86delphi.cspec
+|   |   |   |   x86gcc.cspec
+|   |   |   |   x86win.cspec
+|   |   |   |   
+|   |   |   \---old
+|   |   |           x86RealV1.lang
+|   |   |           x86RealV1.trans
+|   |   |           x86RealV2.lang
+|   |   |           x86RealV2.trans
+|   |   |           x86RealV3.lang
+|   |   |           x86RealV3.trans
+|   |   |           x86smmV1.lang
+|   |   |           x86smmV1.trans
+|   |   |           x86smmV2.lang
+|   |   |           x86smmV2.trans
+|   |   |           x86smmV3.lang
+|   |   |           x86smmV3.trans
+|   |   |           x86V1.lang
+|   |   |           x86V1.trans
+|   |   |           x86V2.lang
+|   |   |           x86V2.trans
+|   |   |           x86V3.lang
+|   |   |           x86V3.trans
+|   |   |           x86_64bit_compat32_v2.lang
+|   |   |           x86_64bit_compat32_v2.trans
+|   |   |           x86_64bit_compat32_v3.lang
+|   |   |           x86_64bit_compat32_v3.trans
+|   |   |           x86_64bit_v1.lang
+|   |   |           x86_64bit_v1.trans
+|   |   |           x86_64bit_v2.lang
+|   |   |           x86_64bit_v2.trans
+|   |   |           x86_64bit_v3.lang
+|   |   |           x86_64bit_v3.trans
+|   |   |           x86_ProtV2.lang
+|   |   |           x86_ProtV2.trans
+|   |   |           x86_ProtV3.lang
+|   |   |           x86_ProtV3.trans
+|   |   |           
+|   |   +---manuals
+|   |   |       x86.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           prepatternconstraints.xml
+|   |           x86-16_default_patterns.xml
+|   |           x86-64gcc_patterns.xml
+|   |           x86-64win_patterns.xml
+|   |           x86delphi_patterns.xml
+|   |           x86gcc_patterns.xml
+|   |           x86win_patterns.xml
+|   |           x86win_prepatterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   +---plugin
+|       |           |   |   \---core
+|       |           |   |       \---analysis
+|       |           |   |               X86Analyzer.java
+|       |           |   |               
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               +---coff
+|       |           |               |   \---relocation
+|       |           |               |           X86_32_CoffRelocationHandler.java
+|       |           |               |           X86_64_CoffRelocationHandler.java
+|       |           |               |           
+|       |           |               +---elf
+|       |           |               |   +---extend
+|       |           |               |   |       X86_32_ElfExtension.java
+|       |           |               |   |       
+|       |           |               |   \---relocation
+|       |           |               |           Elfx86_32bitRelocationFixupHandler.java
+|       |           |               |           Elfx86_64bitRelocationFixupHandler.java
+|       |           |               |           X86_32_ElfRelocationHandler.java
+|       |           |               |           X86_32_ElfRelocationType.java
+|       |           |               |           X86_64_ElfRelocationContext.java
+|       |           |               |           X86_64_ElfRelocationHandler.java
+|       |           |               |           X86_64_ElfRelocationType.java
+|       |           |               |           
+|       |           |               \---macho
+|       |           |                   \---relocation
+|       |           |                           X86_32_MachoRelocationConstants.java
+|       |           |                           X86_32_MachoRelocationHandler.java
+|       |           |                           X86_64_MachoRelocationConstants.java
+|       |           |                           X86_64_MachoRelocationHandler.java
+|       |           |                           
+|       |           \---feature
+|       |               \---fid
+|       |                   \---hash
+|       |                           X86InstructionSkipper.java
+|       |                           
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               AVX2_O0_EmulatorTest.java
+|                               AVX2_O3_EmulatorTest.java
+|                               X86m32_O0_EmulatorTest.java
+|                               X86m32_O3_EmulatorTest.java
+|                               X86m64_O0_EmulatorTest.java
+|                               X86m64_O3_EmulatorTest.java
+|                               
++---Xtensa
+|   |   build.gradle
+|   |   certification.manifest
+|   |   Module.manifest
+|   |   README.md
+|   |   
+|   +---data
+|   |   +---languages
+|   |   |       cust.sinc
+|   |   |       flix.sinc
+|   |   |       xtensa.cspec
+|   |   |       xtensa.dwarf
+|   |   |       xtensa.ldefs
+|   |   |       xtensa.opinion
+|   |   |       xtensa.pspec
+|   |   |       xtensaArch.sinc
+|   |   |       xtensaInstructions.sinc
+|   |   |       xtensaMain.sinc
+|   |   |       xtensa_be.slaspec
+|   |   |       xtensa_depbits.sinc
+|   |   |       xtensa_le.slaspec
+|   |   |       
+|   |   +---manuals
+|   |   |       xtensa.idx
+|   |   |       
+|   |   \---patterns
+|   |           patternconstraints.xml
+|   |           xtensa_patterns.xml
+|   |           
+|   \---src
+|       +---main
+|       |   \---java
+|       |       \---ghidra
+|       |           +---app
+|       |           |   \---util
+|       |           |       \---bin
+|       |           |           \---format
+|       |           |               \---elf
+|       |           |                   \---relocation
+|       |           |                           Xtensa_ElfRelocationHandler.java
+|       |           |                           Xtensa_ElfRelocationType.java
+|       |           |                           
+|       |           \---program
+|       |               \---emulation
+|       |                       XtensaEmulateInstructionStateModifier.java
+|       |                       
+|       \---test.processors
+|           \---java
+|               \---ghidra
+|                   \---test
+|                       \---processors
+|                               Xtensa_O0_EmulatorTest.java
+|                               Xtensa_O3_EmulatorTest.java
+|                               
+\---Z80
+    |   build.gradle
+    |   certification.manifest
+    |   Module.manifest
+    |   README.md
+    |   
+    +---data
+    |   +---languages
+    |   |       z180.pspec
+    |   |       z180.slaspec
+    |   |       z182.pspec
+    |   |       z80.cspec
+    |   |       z80.ldefs
+    |   |       z80.pspec
+    |   |       z80.slaspec
+    |   |       z8401x.pspec
+    |   |       
+    |   \---manuals
+    |           Z180.idx
+    |           Z80.idx
+    |           
+    \---temp
+            z8401x.pspec
+            
